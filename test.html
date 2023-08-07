@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrolling Down Arrow Indication</title>
+	<style>
+		.scroll-down {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-60%);
+			width: 40px;
+			height: 40px;
+			border: none;
+			border-radius: 50%;
+			background-color: #555;
+			color: #fff;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+		.scroll-down:before {
+			content: "\2193";
+			font-weight: bold;
+			transform: rotate(45deg);
+			margin-left: -3px;
+			margin-top: -3px;
+			transition: transform 0.3s;
+		}
+
+		.scroll-down:hover:before {
+			transform: rotate(225deg);
+		}
+	</style>
+</head>
+<body>
+	<h1>Scrolling Down Arrow Indication</h1>
+	<p>Click the arrow button to scroll down:</p>
+	<div style="height: 2000px;"></div>
+	<button class="scroll-down" onclick="scrollDown()"></button>
+
+	<script>
+		function scrollDown() {
+			window.scrollBy({
+				top: window.innerHeight,
+				behavior: 'smooth'
+			});
+		}
+	</script>
+</body>
+</html>

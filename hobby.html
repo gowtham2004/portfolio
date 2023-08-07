@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hobbies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="beauty.css">
+  </head>
+  <body>
+    <div class="container">
+      <ul class="social-icons pt-3">
+        <li class="social-item"><a class="btn btn-danger" href="index.php">BACK HOME</a></li>
+    </ul>
+    <section id="hero"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 163.5" style="enable-background:new 0 0 100 163.5;" xml:space="preserve">
+</svg>
+      <div class="wrapper">
+        <div class="welcome">
+          <h1><strong>Pleasant </strong>Music</h1>
+          <p>Music is the only way to nutralize our body and mind. I used to hear music in my free time it helps me for relaxation Hearing music is a complex auditory experience that involves the processing of sound waves by the ear and the interpretation of those sounds by the brain. The quality of our hearing can greatly impact our ability to fully enjoy and appreciate music. The human ear can detect a wide range of frequencies and amplitudes, which allows us to perceive the various components of music, such as melody, harmony, and rhythm. Our brains then process and interpret these components to create the emotional and aesthetic experience of hearing music.</p>
+        </div>
+        <div class="photographer"><img src="assets/img/hero.png" alt="Photographer"></div>
+      </div>
+    </section>
+    <section id="about"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 203.6" style="enable-background:new 0 0 100 203.6;" xml:space="preserve"></svg>
+      <div class="wrapper">
+        <div class="camera"><img src="assets/img/camera.png" alt="Camera"></div>
+        <div class="blurb">
+          <h2>Action <strong>Gaming</strong></h2>
+          <p>Playing Games is good for problem solving and better for stress relief. I used to play Free Fire for relaxation but it's a limit.  Gaming can have both positive and negative effects on individuals, depending on factors such as the type of game, the amount of time spent playing, and the individual's personality and social context. On the positive side, gaming can enhance cognitive skills such as attention, memory, and problem-solving, as well as provide a sense of achievement and social connection. However, excessive gaming can lead to addiction, negative impacts on mental health, and reduced physical activity</p>
+        </div>
+      </div>
+    </section>
+    <section id="about"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 203.6" style="enable-background:new 0 0 100 203.6;" xml:space="preserve"></svg>
+        <div class="wrapper">
+          <div class="camera"><img src="assets/img/coding.png" alt="Camera"></div>
+          <div class="blurb">
+            <h2>Marvellous <strong>Coding</strong></h2>
+            <p>Coding is my passion and it helps me for problem solving and logical thinking. Coding has become an increasingly important skill in today's digital age, with a growing demand for software developers, web developers, and other technology professionals. The ability to code can provide many benefits, such as the ability to create your own applications and websites, automate tasks, and solve complex problems. Learning to code can also improve critical thinking, logical reasoning, and creativity. However, it is important to stay up-to-date with the latest developments in coding and technology to remain relevant in the industry.</p>
+          </div>
+        </div>
+      </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+    <script src="assets/js/functions-min.js"></script>
+  </body>
+</html>
